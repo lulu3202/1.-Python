@@ -37,8 +37,20 @@ class multipleFunctions():
         print("Perimeter of Triangle: ",Height1+Height2+breadth)
 
 
+    def Eligible():
+        gender = input("Your Gender: ")
+        age = int(input("Your Age: "))
+        if gender == 'Male':
+            if age >= 21:
+                print('ELIGIBLE')
+            else:
+                print('NOT ELIGIBLE')
+        elif gender == 'Female':
+            if age > 18:
+                print('ELIGIBLE')
+            else:
+                print('NOT ELIGIBLE')
+        else:
+            print('INVALID INPUT DATA')
     
-
-    
-
 
